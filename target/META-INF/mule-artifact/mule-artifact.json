@@ -1,0 +1,31 @@
+{
+  "configs": [
+    "globalConfig.xml",
+    "create-employee.xml",
+    "update-employee.xml",
+    "get-employee.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:emp-sapi2:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "log4j2.xml",
+        "create-employee.xml",
+        "application-types.xml",
+        "update-employee.xml",
+        "get-employee.xml",
+        "globalConfig.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
